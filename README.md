@@ -36,8 +36,44 @@ https://medium.com/analytics-vidhya/tracking-and-monitoring-transformers-with-ml
 
 ### Techologies:
 
+1. model: jupyter notebook, TrueFoundy/MlFoundry, API
+
+2. deployment: Terraform, Flask, Docker, EKS, ECR, ECS, AWS Farget, s3, Gunicorn/Unicorn, ELB, Code commit, Code Build, Code Deploy, Code Pipeline
+
 ### Assets:
 
-### Steps:
+
+
+### Model Developement Steps:
+
+Jupyter notebook select run time tensorflwo 1.15 python 3.7 (python 3.8)
+
+Connect to truefondry API
+
+feature engineering 
+
+Log experiements via TrueFoundry api
+
+
+### Model Deployment Steps:
+
+Code commit Repository
+
+AWS ECR
+
+AWS Code Build
+
+Importing resources to Terraform/ Terrraform commands and console
+
+AWS Load Balancer
+
+AWS ECS cluster
+
+AWS ECS service and code pipeline
+
+Code pipeline demo
+
+AWS s3 bucket
+
 
 
