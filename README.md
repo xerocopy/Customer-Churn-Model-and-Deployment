@@ -58,8 +58,13 @@ https://medium.com/analytics-vidhya/tracking-and-monitoring-transformers-with-ml
 ### Model Deployment Steps:
 
 1. Code commit Repository
- - CustomerChurnAppDeployment
- 
+ - create repository named: CustomerChurnAppDeployment
+
+ - push model to repository from cloud9: git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/CustomerChurnAppDeployment
+
+ - git push origin master
+
+
 2. AWS ECR
 
 3. AWS Code Build
