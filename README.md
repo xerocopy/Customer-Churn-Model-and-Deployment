@@ -46,34 +46,35 @@ https://medium.com/analytics-vidhya/tracking-and-monitoring-transformers-with-ml
 
 ### Model Developement Steps:
 
-Jupyter notebook select run time tensorflwo 1.15 python 3.7 (python 3.8)
+1. Jupyter notebook select run time tensorflwo 1.15 python 3.7 (python 3.8)
 
-Connect to truefondry API
+2. Connect to truefondry API
 
-feature engineering 
+3. feature engineering 
 
-Log experiements via TrueFoundry api
+4. Log experiements via TrueFoundry api
 
 
 ### Model Deployment Steps:
 
-Code commit Repository
+1. Code commit Repository
+ - CustomerChurnAppDeployment
+ 
+2. AWS ECR
 
-AWS ECR
+3. AWS Code Build
 
-AWS Code Build
+4. Importing resources to Terraform/ Terrraform commands and console
 
-Importing resources to Terraform/ Terrraform commands and console
+5. AWS Load Balancer
 
-AWS Load Balancer
+6. AWS ECS cluster
 
-AWS ECS cluster
+7. AWS ECS service and code pipeline
 
-AWS ECS service and code pipeline
+8. Code pipeline demo
 
-Code pipeline demo
-
-AWS s3 bucket
+9. AWS s3 bucket
 
 
 
